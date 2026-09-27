@@ -4,6 +4,7 @@ node_modules/
 # Database
 data/*.db
 data/*.db-journal
+!data/.gitkeep
 
 # Uploads (keep folder structure but ignore files)
 public/uploads/*
