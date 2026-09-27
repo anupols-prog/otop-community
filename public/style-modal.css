@@ -1,0 +1,103 @@
+/* Modal Overlay */
+.modal-overlay {
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  padding: 1rem;
+}
+
+.modal-overlay.hidden {
+  display: none;
+}
+
+/* Modal Box */
+.modal {
+  background: white;
+  border-radius: 12px;
+  max-width: 600px;
+  width: 100%;
+  max-height: 90vh;
+  overflow-y: auto;
+  padding: 2rem;
+  box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+}
+
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.modal-header h2 {
+  color: #65463E;
+  margin: 0;
+}
+
+.modal-close {
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: #999;
+  padding: 0.3rem 0.6rem;
+  border-radius: 6px;
+}
+
+.modal-close:hover {
+  background: #F0C88E;
+  color: #65463E;
+}
+
+.edit-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.modal-footer {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.modal-footer button {
+  flex: 1;
+}
+
+.cancel-btn {
+  padding: 0.9rem;
+  background: white;
+  color: #65463E;
+  border: 2px solid #F0C88E;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+  font-family: inherit;
+}
+
+.cancel-btn:hover {
+  background: #F0C88E;
+}
+
+/* Edit button on card */
+.edit-btn {
+  padding: 0.5rem 1rem;
+  background: #FB9E09;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 0.9rem;
+  margin-right: 0.5rem;
+}
+
+.edit-btn:hover {
+  background: #D13704;
+}

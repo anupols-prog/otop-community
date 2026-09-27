@@ -1,0 +1,47 @@
+/* card-header */
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  gap: 0.5rem;
+  margin-bottom: 0.8rem;
+}
+
+.category-badge {
+  padding: 0.3rem 0.6rem;
+  background: #F0C88E;
+  color: #65463E;
+  border-radius: 12px;
+  font-size: 0.8rem;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.producer, .contact {
+  color: #666;
+  font-size: 0.95rem;
+  margin-bottom: 0.4rem;
+}
+
+.card-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.delete-btn {
+  padding: 0.5rem 1rem;
+  background: #D13704;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 0.9rem;
+  transition: background 0.2s;
+}
+
+.delete-btn:hover {
+  background: #A82C03;
+}
